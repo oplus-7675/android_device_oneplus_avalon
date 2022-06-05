@@ -21,4 +21,12 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1000px</dimen>
 
+    <!-- Alert Slider UI -->
+    <dimen name="tri_state_down_dialog_position">585px</dimen>
+    <dimen name="tri_state_down_dialog_position_l">470px</dimen>
+    <dimen name="tri_state_middle_dialog_position">390px</dimen>
+    <dimen name="tri_state_middle_dialog_position_l">382px</dimen>
+    <dimen name="tri_state_up_dialog_position">220px</dimen>
+    <dimen name="tri_state_up_dialog_position_l">300px</dimen>
+
 </resources>
