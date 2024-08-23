@@ -10,17 +10,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key-calibrate
 
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2772
-TARGET_SCREEN_WIDTH := 1240
 
 # Display
 PRODUCT_COPY_FILES += \
@@ -31,7 +26,7 @@ $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-sun
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \

@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avalon device
 $(call inherit-product, device/oneplus/avalon/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common SunOS stuff.
+$(call inherit-product, vendor/sun/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_avalon
+PRODUCT_NAME := sun_avalon
 PRODUCT_DEVICE := avalon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

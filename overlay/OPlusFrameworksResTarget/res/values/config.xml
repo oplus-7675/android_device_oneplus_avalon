@@ -393,4 +393,16 @@
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
+    <!-- Default volume panel position in portrait mode
+         0: Left side
+         1: Right side -->
+    <integer name="config_volumePanelPosPortDefault">1</integer>
+
+    <!-- Whether device has a centered cutout -->
+    <bool name="config_hasCenteredCutout">true</bool>
+
+    <!-- Allow the gesture power + volume up to change the ringer mode while the device
+         is interactive. -->
+    <bool name="config_volumeHushGestureEnabled">false</bool>
+
 </resources>
