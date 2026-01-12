@@ -1641,13 +1641,13 @@ vendor/bin/hw/vendor.qti.hardware.display.color-service
 vendor/bin/ppd
 vendor/etc/init/vendor.qti.hardware.display.color-service.rc
 vendor/lib64/libdisp-aba.so
-vendor/lib64/vendor.display.color@1.0.so
-vendor/lib64/vendor.display.color@1.1.so
-vendor/lib64/vendor.display.color@1.2.so
-vendor/lib64/vendor.display.color@1.3.so
+vendor/lib64/vendor.display.color@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.display.color@1.1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.display.color@1.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.display.color@1.3.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
-vendor/lib64/vendor.display.postproc@1.0.so
+vendor/lib64/vendor.display.postproc@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display firmware
 vendor/firmware/dpAP_full.mbn
