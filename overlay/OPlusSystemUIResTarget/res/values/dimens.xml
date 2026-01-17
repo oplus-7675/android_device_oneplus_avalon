@@ -10,7 +10,7 @@
     <item name="pixel_pitch" format="float" type="dimen">61.5</item>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">17dp</dimen>
+    <dimen name="status_bar_padding_start">88px</dimen>
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">0dp</dimen>
