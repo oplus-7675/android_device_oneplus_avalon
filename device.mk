@@ -51,7 +51,7 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator.service.oplus-richtap
+    android.hardware.vibrator.service-stub-richtap
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \

@@ -6,3 +6,9 @@ debug.sf.auto_latch_unsignaled=1
 
 # USB
 vendor.usb.product_string=OnePlus Nord 4
+
+# Vibrator
+sys.sun.feature.vibrator.ready=1
+sys.sun.feature.vibrator.richtap=1
+sys.sun.feature.vibrator.richtap_config=/odm/etc/aac_richtap.config
+sys.sun.feature.vibrator.richtap_dev=/dev/awinic_haptic
